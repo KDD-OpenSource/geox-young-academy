@@ -96,7 +96,7 @@ Additionally, we ask you:
 There people participate in the workshop:
 
 - Nicco Kunzmann, Github: @niccokunzmann
-
+- Sreeram Reddy Kotha, Github: @sriram010689
 
 ## Examples
 
