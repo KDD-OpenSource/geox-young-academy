@@ -68,11 +68,11 @@ Implement code to compute the mean image. Subtract the mean from the input crops
 
 ### Task 4
 
-The mean free crops should be a numpy array of shape (20000, 4, 15, 15). Flatten the crops into vectors so that you get a numpy array of shape (20000, 4*15*15). Hint: use "np.reshape".
+The mean free crops should be a numpy array of shape (20000, 4, 15, 15). Flatten the crops into vectors so that you get a numpy array of shape (20000, 4 * 15 * 15). Hint: use "np.reshape".
 
 ### Task 5
 
-Compute the covariance matrix. This should be a matrix of size 900x900 (900 = 4*15*15). Start with a zero matrix, loop over all 20000 crops, and for each crop compute the outer product "np.outer(a,b)" of the mean free vectors with themselves. Accumulate (sum) the outer products together and finally divide by the total number of used crops. To speed up development, consider using only every 10th crop.
+Compute the covariance matrix. This should be a matrix of size 900x900 (900 = 4 * 15 * 15). Start with a zero matrix, loop over all 20000 crops, and for each crop compute the outer product "np.outer(a,b)" of the mean free vectors with themselves. Accumulate (sum) the outer products together and finally divide by the total number of used crops. To speed up development, consider using only every 10th crop.
 
 ### Task 6
 
