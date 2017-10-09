@@ -24,7 +24,7 @@ training_data = np.load('data/s2_training_data.npz')
 train_X = training_data['data']
 train_Y = training_data['labels']
 ```
-The labels can be ignored for now. We want to run PCA on the 40000 patches in this dataset. The data is organized as one numpy array of shape (40000, 4, 15, 15) where the first dimension are the instances, the next dimension are the channels, and the latter two are width and height.
+The labels can be ignored for now. We want to run PCA on the 20000 patches in this dataset. The data is organized as one numpy array of shape (20000, 4, 15, 15) where the first dimension are the instances, the next dimension are the channels, and the latter two are width and height.
 
 
 ### Task 1
@@ -44,7 +44,7 @@ def show_raw_image(img):
     plt.show()
 ```
 
-The first 10k crops contain forest in the central pixel. The next 10k contain fields/lower vegetation. The next 10k are urban areas and the last 10k are water.
+The first 5k crops contain forest in the central pixel. The next 5k contain fields/lower vegetation. The next 5k are urban areas and the last 5k are water.
 
 ### Task 2
 
@@ -68,11 +68,11 @@ Implement code to compute the mean image. Subtract the mean from the input crops
 
 ### Task 4
 
-The mean free crops should be a numpy array of shape (40000, 4, 15, 15). Flatten the crops into vectors so that you get a numpy array of shape (40000, 4*15*15). Hint: use "np.reshape".
+The mean free crops should be a numpy array of shape (20000, 4, 15, 15). Flatten the crops into vectors so that you get a numpy array of shape (20000, 4*15*15). Hint: use "np.reshape".
 
 ### Task 5
 
-Compute the covariance matrix. This should be a matrix of size 900x900 (900 = 4*15*15). Start with a zero matrix, loop over all 40000 crops, and for each crop compute the outer product "np.outer(a,b)" of the mean free vectors with themselves. Accumulate (sum) the outer products together and finally divide by the total number of used crops. To speed up development, consider using only every 10th crop.
+Compute the covariance matrix. This should be a matrix of size 900x900 (900 = 4*15*15). Start with a zero matrix, loop over all 20000 crops, and for each crop compute the outer product "np.outer(a,b)" of the mean free vectors with themselves. Accumulate (sum) the outer products together and finally divide by the total number of used crops. To speed up development, consider using only every 10th crop.
 
 ### Task 6
 
@@ -120,7 +120,7 @@ Use the following code to compare, side by side, original image crops and recons
 train_features = compute_features(train_X, mean, principal_components, 32)
 
 for i in range(0,4):    
-    img = np.concatenate((train_X[10000*i,:,:,:], reconstruct_image(train_features[10000*i,:], mean, principal_components)), 2);
+    img = np.concatenate((train_X[5000*i,:,:,:], reconstruct_image(train_features[5000*i,:], mean, principal_components)), 2);
     show_raw_image(np.exp(img))
 ```
 
