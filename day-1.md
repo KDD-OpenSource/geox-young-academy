@@ -99,6 +99,7 @@ Four people participate in the workshop:
 - Irina Zhelavskaya, @irinazz
 - Sreeram Reddy Kotha, @sriram010689
 - David Loibl, @slingshot1980
+- Georgy Ayzel, @hydrogo
 
 ## Examples
 
