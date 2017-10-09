@@ -93,7 +93,7 @@ Additionally, we ask you:
 
 ## Participants
 
-Four people participate in the workshop:
+Seven people participate in the workshop:
 
 - Nicco Kunzmann, Github: @niccokunzmann
 - Irina Zhelavskaya, @irinazz
