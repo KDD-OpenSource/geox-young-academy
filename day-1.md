@@ -102,6 +102,7 @@ Four people participate in the workshop:
 - David Frantz, @davidfrantz
 - David Loibl, @slingshot1980
 - Georgy Ayzel, @hydrogo
+- Márk Somogyvári, @MarkSomogyvari
 
 ## Examples
 
