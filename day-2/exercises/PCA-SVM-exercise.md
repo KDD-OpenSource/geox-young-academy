@@ -1,4 +1,4 @@
-PCA Exercise
+PCA-SVM Exercise
 ===============
 
 Goals
