@@ -56,3 +56,4 @@ Material
 - [Classification using k-nearest-neighbors](day-2/exercises/knn-classification-exercise.md)
 - [PCA](day-2/exercises/PCA-exercise.md)
 - [Classification using PCA and SVM](day-2/exercises/PCA-SVM-exercise.md)
+- [Convnets with PyTorch](day-2/exercises/pytorch-exercise.md)
