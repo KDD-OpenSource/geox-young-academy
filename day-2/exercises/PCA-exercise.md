@@ -120,7 +120,11 @@ Use the following code to compare, side by side, original image crops and recons
 train_features = compute_features(train_X, mean, principal_components, 32)
 
 for i in range(0,4):    
-    img = np.concatenate((train_X[5000*i,:,:,:], reconstruct_image(train_features[5000*i,:], mean, principal_components)), 2);
+    img = np.concatenate((train_X[5000*i+0,:,:,:], reconstruct_image(train_features[5000*i+0,:], mean, principal_components)), 2);
+    img = np.concatenate((img,np.concatenate((train_X[5000*i+1,:,:,:], reconstruct_image(train_features[5000*i+1,:], mean, principal_components)), 2)), 1);
+    img = np.concatenate((img,np.concatenate((train_X[5000*i+2,:,:,:], reconstruct_image(train_features[5000*i+2,:], mean, principal_components)), 2)), 1);
+    img = np.concatenate((img,np.concatenate((train_X[5000*i+3,:,:,:], reconstruct_image(train_features[5000*i+3,:], mean, principal_components)), 2)), 1);
+    img = np.concatenate((img,np.concatenate((train_X[5000*i+4,:,:,:], reconstruct_image(train_features[5000*i+4,:], mean, principal_components)), 2)), 1);
     show_raw_image(np.exp(img))
 ```
 
