@@ -46,10 +46,10 @@ Material
 
 ### Slides
 
-- [Part 1](day2/slides/part1_300dpi.pdf)
-- [Part 2](day2/slides/part2_300dpi.pdf)
-- [Part 3](day2/slides/part3_300dpi.pdf)
-- [Part 4](day2/slides/part4_300dpi.pdf)
+- [Part 1](day-2/slides/part1_300dpi.pdf)
+- [Part 2](day-2/slides/part2_300dpi.pdf)
+- [Part 3](day-2/slides/part3_300dpi.pdf)
+- [Part 4](day-2/slides/part4_300dpi.pdf)
 
 Thanks to [Yuliya Tarabalka](http://www-sop.inria.fr/members/Yuliya.Tarabalka/) for providing some of the material.
 
