@@ -93,12 +93,13 @@ Additionally, we ask you:
 
 ## Participants
 
-There people participate in the workshop:
+Four people participate in the workshop:
 
 - Nicco Kunzmann, Github: @niccokunzmann
 - Irina Zhelavskaya, @irinazz
 - Sreeram Reddy Kotha, @sriram010689
 - Timo Hajati, @hajati
+- David Loibl, @slingshot1980
 
 ## Examples
 
