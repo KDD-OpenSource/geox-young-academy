@@ -103,6 +103,7 @@ Four people participate in the workshop:
 - David Loibl, @slingshot1980
 - Georgy Ayzel, @hydrogo
 - Márk Somogyvári, @MarkSomogyvari
+- Sébastien Valade, @sebastienValade
 
 ## Examples
 
