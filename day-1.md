@@ -99,7 +99,9 @@ Four people participate in the workshop:
 - Irina Zhelavskaya, @irinazz
 - Sreeram Reddy Kotha, @sriram010689
 - Timo Hajati, @hajati
+- David Frantz, @davidfrantz
 - David Loibl, @slingshot1980
+- Georgy Ayzel, @hydrogo
 
 ## Examples
 
