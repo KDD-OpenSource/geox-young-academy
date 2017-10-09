@@ -54,3 +54,4 @@ Material
 ### Exercises
 
 - [Classification using k-nearest-neighbors](day-2/exercises/knn-classification-exercise.md)
+- [PCA](day-2/exercises/PCA-exercise.md)
