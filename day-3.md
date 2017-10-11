@@ -18,3 +18,7 @@ Day 3
 
 Programming Techniques:
 - [Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q)
+
+Cheat Sheet
+- [Numpy Cheat Sheet](https://www.dataquest.io/blog/numpy-cheat-sheet/)
+- [Numpy Matrix Methods](https://docs.scipy.org/doc/numpy/reference/generated/numpy.matrix.html) (Transpose, invert, ...)
