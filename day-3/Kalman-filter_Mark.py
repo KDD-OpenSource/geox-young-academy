@@ -29,7 +29,7 @@ def analysis_formulas(state_1_hat,cov_1_hat,K,H,obs_0):
     return state_1, cov_1
 
 def kalman_gain(cov_1_hat,H,R):
-    K = cov_1_hat*H*(R+H*cov_1_hat*H)
+    K = cov_1_hat*H*(R+H*cov_1_hat*H)**(-1)
     return K
 
 #Initialize model parameters
