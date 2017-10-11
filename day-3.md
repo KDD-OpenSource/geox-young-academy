@@ -15,3 +15,6 @@ Day 3
 13:00-14:00 Hands-on Session
 
 14:00-15:00 Presentation of results/Discussion
+
+Programming Techniques:
+- [Pair Programming](https://www.youtube.com/watch?v=vgkahOzFH2Q)
