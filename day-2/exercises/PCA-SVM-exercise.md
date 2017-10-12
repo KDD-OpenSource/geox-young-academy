@@ -50,3 +50,19 @@ Compute the accuracy on the training dataset.
 Load the test dataset. Compute features for it as well (remember to compute the logarithm of the data first) and evaluate the classifier on the test dataset.
 
 What is the training accuracy for 16, 32, and 256 principal components. What is the test accuracy for those? How long does training/inference take (roughly)?
+
+### Task 5 (Bonus task)
+
+Classify this [image](data/s2_application_data.npz). Use a "sliding window" approach where you crop a window of 15x15 pixels from the source image, use that to infer the label of the central pixel, and then repeat with a crop offset by one pixel to classify the next pixel.
+
+Note that compute_features expects an array of crops instead of a single crop which means that you need to turn your crop into an array containing just one crop.
+
+Simply render the final label map with:
+```python
+plt.imshow(application_labels)
+plt.show()
+```
+It should look something like this:
+![Input image](data/application_input.png) ![Classification result](data/application_classification.png)
+
+
