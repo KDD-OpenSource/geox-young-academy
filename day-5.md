@@ -14,6 +14,8 @@ Questions
 - What is the difference between Python3 and Python2?
 - How to do object oriented programming (OOP), what is good OOP design?
 - What can we do with numpy/plotting?
+- How to set-up a python project (how to set up modules, __init__ scripts, ...)
+- What is unit testing and what are the best pratices?
 
 Useful links:
 ------------
