@@ -6,6 +6,7 @@ Day 4
 09.00	Introduction
 
 09.15	First results of the Geo.X accompanying research study: “Career development of early career scientists in Berlin and Brandenburg”
+Slides: 
 
 09.45	Expert talk on interdisciplinarity in the geosciences “How to build an interdisciplinary research career?”
 
