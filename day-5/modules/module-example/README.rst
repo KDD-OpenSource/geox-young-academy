@@ -17,6 +17,7 @@ Create a source package:
 
 .. code:: shell
 
+    rm dist/*
     python setup.py sdist # for building a zip file
 
 To upload it, first create an account here:

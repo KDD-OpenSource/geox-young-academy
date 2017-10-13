@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 
 NAME = "geox_statistics"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 
 REQUIRES = ["numpy"] # modules we need
 HERE = os.path.dirname(__file__)
