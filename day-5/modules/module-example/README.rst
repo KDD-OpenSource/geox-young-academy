@@ -7,6 +7,11 @@ https://codetrips.com/2016/09/19/how-to-publish-a-pyton-package-on-pypi/
 
 to deploy:
 
+TODO: write about
+
+.. code:: shell
+
+   git tag
 
 Create a source package:
 
