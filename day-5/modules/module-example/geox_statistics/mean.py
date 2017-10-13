@@ -1,1 +1,4 @@
-print(__file__)
+print("hello")
+
+def mean(values):
+    return 6
