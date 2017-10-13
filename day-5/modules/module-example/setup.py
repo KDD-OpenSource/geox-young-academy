@@ -8,6 +8,10 @@ VERSION = "0.0.1"
 
 REQUIRES = ["numpy"] # modules we need
 HERE = os.path.dirname(__file__)
+REQUIRES = [line.strip()
+    for line in open(
+        os.path.join(HERE, "requirements.txt")).readlines()
+        if line.strip()]
 setup(
     name=NAME,
     version=VERSION,
