@@ -1,0 +1,5 @@
+# you can install all the requirements for
+# the module from here using
+#
+#    pip install -r requirements.txt
+numpy
