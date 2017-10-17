@@ -111,7 +111,7 @@ The last layer does not have a relu activation and has one output for each class
 
 ### Task 4
 
-Train the network on the training data for 2 epochs using cross entropy loss and stochastic gradient descend:
+Train the network on the training data for 2 epochs (you can also try 10 epochs if you have lots of time) using cross entropy loss and stochastic gradient descend:
 ```python
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
